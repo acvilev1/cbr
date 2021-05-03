@@ -4,6 +4,10 @@
 Для начала разверните докер
 docker-compose up -d
 
+затем зайдите в контейнер php и запустите композер
+
+composer install
+
 ###апи будет доступна на порте 8080
 
 http://localhost:8080/rate?date_req=10-04-2021&currency_code=rur&base_currency_code=USD
